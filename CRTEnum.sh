@@ -83,8 +83,8 @@ if [ ! -z $domain ]; then
 	:
 else
 	banner
-    help
-    exit 0
+	help
+	exit 0
 fi
 
 start
