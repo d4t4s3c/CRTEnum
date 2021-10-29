@@ -38,6 +38,7 @@ function banner(){
     echo -e "$White$var17 $YellowLight\____/_/ |_| /_/ /_____/_/ /_/\__,_/_/ /_/ /_/  $White$var17$End";
     echo -e "$White$var17                                                 $White$var17"
     echo -e "$White$var18                                                                           ";
+    echo ""
 }
 
 function help(){
