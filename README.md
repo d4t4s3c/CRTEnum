@@ -17,4 +17,9 @@ root@kali:~# wget -q "https://raw.githubusercontent.com/d4t4s3c/CRTEnum/main/CRT
 root@kali:~# chmod +x /usr/bin/CRTEnum
 ```
 
+- <kbd>Requirements</kbd>
+
+  * cURL
+  * html2text
+
 ---
