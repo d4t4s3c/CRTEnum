@@ -1,6 +1,6 @@
 # CRTEnum
 
-**Finds subdomains in transparency logs on HTTPS websites**
+**Finds `subdomains` in transparency logs on `HTTPS` websites**
 
 ![](/screenshot.png)
 
