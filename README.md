@@ -2,6 +2,10 @@
 
 **Discovery `subdomains` from logs in the transparency certificates on `HTTPS` websites**
 
+> NO `brute force` atack
+>
+> NO `zone transfer (AXFR)` attack 
+
 ![](/screenshot.png)
 
 - <kbd>Use</kbd>
