@@ -1,12 +1,12 @@
 #!/bin/bash
 
 #colors
-White="\e[97m"
-GrayDark="\e[90m"
-Red="\e[31m"
-Green="\e[32m"
-YellowLight="\e[93m"
-End="\e[0m"
+declare -r White="\e[97m"
+declare -r GrayDark="\e[90m"
+declare -r Red="\e[31m"
+declare -r Green="\e[32m"
+declare -r YellowLight="\e[93m"
+declare -r End="\e[0m"
 
 #var
 declare -r var1='['
