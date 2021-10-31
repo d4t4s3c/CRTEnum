@@ -1,10 +1,11 @@
 # CRTEnum
 
 **Discovery `subdomains` from logs in the transparency certificates on `HTTPS` websites**
+  
+- <kbd>`CRTEnum` not use attacks:</kbd>
 
-> NO `Brute Force` Attack
->
-> NO `Zone Transfer (AXFR)` Attack 
+   * Brute Force
+   * Zone Transfer (AXFR)
 
 ![](/screenshot.png)
 
