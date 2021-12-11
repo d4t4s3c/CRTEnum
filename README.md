@@ -7,7 +7,7 @@
    * Brute Force
    * Zone Transfer (AXFR)
 
-![](/screenshot.png)
+![](/1.png)
 
 - <kbd>Use</kbd>
 
