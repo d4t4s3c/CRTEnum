@@ -12,7 +12,7 @@
 - <kbd>Use</kbd>
 
 ```cmd
-root@kali:~# CRTEnum.sh domain.com
+root@kali:~# CRTEnum.sh -d domain.com
 ```
 
 - <kbd>Download / Install</kbd>
