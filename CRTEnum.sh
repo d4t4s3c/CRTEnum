@@ -51,7 +51,7 @@ function status(){
 }
 
 function check(){
-        ch=$(curl -s -X GET "https://crt.sh/?q=$DOMAIN" | html2text | grep "Certificates" | awk '{print $2}')
+        ch=$(curl -skX GET "https://crt.sh/?q=$DOMAIN" | html2text | grep "Certificates" | awk '{print $2}')
     if [ "$(echo $ch)" == "None" ]; then
         echo -e "$WHITE$VAR1$RED$VAR8$WHITE$VAR2 $RED$VAR9 $WHITE$VAR14$END"
         echo ""
@@ -66,7 +66,7 @@ function enum(){
     echo -e "$WHITE$VAR1$GREEN$VAR6$WHITE$VAR2 $WHITE$VAR15 $WHITE$VAR1$GREEN$VAR13$WHITE$VAR2$END"
     sleep 2
     echo -e "$WHITE$VAR18$END"
-    F1=$(curl -s "https://crt.sh/?q=.colddsecurity.com&output=json" | jq -r '.[] | "\(.name_value)\n\(.common_name)"' | sort -u)
+    F1=$(curl -skX GET "https://crt.sh/?q=$DOMAIN&output=json" | jq -r '.[] | "\(.name_value)\n\(.common_name)"' | sort -u)
     echo ""
     echo -e "$GREEN$F1$END"
     echo ""
